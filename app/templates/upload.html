@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Image Classification</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 text-center">Upload an Image for Classification</h1>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+          <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <input type="file" class="form-control-file" name="file" accept="image/*" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Upload Image</button>
+          </form>
+        </div>
+      </div>
+
+      {% if predictions %}
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              Prediction Results
+            </div>
+            <div class="card-body">
+              <p class="card-text"><strong>Predicted Class:</strong> {{ predictions['predicted_class'] }}</p>
+              <p class="card-text"><strong>Confidence:</strong> {{ predictions['confidence'] * 100 }}%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6 text-center">
+          <h5>Uploaded Image:</h5>
+          <img src="{{ image_url }}" class="img-fluid img-thumbnail mt-3" alt="Uploaded Image">
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

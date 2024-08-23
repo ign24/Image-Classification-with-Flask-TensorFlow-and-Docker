@@ -35,7 +35,7 @@ Docker and Docker Compose installed on your machine.
 
 3. Build and bring up the containers using Docker Compose:
 
-         - docker-compose up --build
+          docker-compose up --build
 
 4. Access the web application at http://localhost:5000.
 
@@ -54,7 +54,7 @@ If you want to train the model from scratch:
 1. Adjust the parameters in model.py according to your needs.
 2. Run the script to train and save the model:
 
-        - python model.py
+         python model.py
 
 
 ## Monitoring

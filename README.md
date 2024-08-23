@@ -2,6 +2,9 @@
 
 This project implements a web application for image classification using a deep learning model based on the ResNet50 architecture. The project uses Flask as the web framework, TensorFlow/Keras for building and training the model, Docker for containerization, and Prometheus along with Grafana for monitoring and metric visualization.
 
+![Diagrama sin título drawio](https://github.com/user-attachments/assets/747fc35f-d34b-445b-9e6c-3f00f67c9f57)
+
+
 ## Features
 
 - **Image Classification:** Users can upload images through a web interface and receive predictions for the clothing category.

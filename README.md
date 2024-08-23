@@ -4,7 +4,7 @@ This project implements a web application for image classification using a deep 
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/471212bb-c077-45ca-9e54-843f1aee02f5" alt="Pipeline Diagram" width="600"/>
+  <img src="https://github.com/user-attachments/assets/471212bb-c077-45ca-9e54-843f1aee02f5"/>
 </p>
 
 

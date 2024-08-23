@@ -24,11 +24,12 @@ This project implements a web application for image classification using a deep 
 
 Docker and Docker Compose installed on your machine.
 
-### Installation Steps
+## Installation Steps
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/[your-repo](https://github.com/ign24/Image-Classification-with-Flask-TensorFlow-and-Docker).git
-    cd [your-repo](https://github.com/ign24/Image-Classification-with-Flask-TensorFlow-and-Docker)
+   ```bash
+   git clone https://github.com/ign24/Image-Classification-with-Flask-TensorFlow-and-Docker.git
+   cd Image-Classification-with-Flask-TensorFlow-and-Docker
 
 2. Configure the environment variables in the .env file. Make sure the paths and configurations are correct.
 

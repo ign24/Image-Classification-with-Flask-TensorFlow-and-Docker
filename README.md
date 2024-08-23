@@ -27,8 +27,8 @@ This project implements a web application for image classification using a deep 
 ### Installation Steps
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/yourusername/[your-repo](https://github.com/ign24/Image-Classification-with-Flask-TensorFlow-and-Docker).git
+    cd [your-repo](https://github.com/ign24/Image-Classification-with-Flask-TensorFlow-and-Docker)
 
 2. Configure the environment variables in the .env file. Make sure the paths and configurations are correct.
 
@@ -53,7 +53,7 @@ If you want to train the model from scratch:
 1. Adjust the parameters in model.py according to your needs.
 2. Run the script to train and save the model:
 
-    python model.py
+    ```python model.py```
 
 
 ## Monitoring

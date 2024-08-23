@@ -64,22 +64,23 @@ Metrics from the Flask application are exposed at http://localhost:5000/metrics 
 The current model achieves approximately 81% accuracy on the Fashion MNIST test set, with the following metrics for different classes:
 
 
-                 precision    recall  f1-score   support
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| T-shirt/top  | 0.78      | 0.75   | 0.77     | 302     |
+| Trouser      | 0.94      | 0.98   | 0.96     | 308     |
+| Pullover     | 0.62      | 0.83   | 0.71     | 310     |
+| Dress        | 0.85      | 0.77   | 0.81     | 298     |
+| Coat         | 0.73      | 0.53   | 0.62     | 324     |
+| Sandal       | 0.97      | 0.91   | 0.93     | 285     |
+| Shirt        | 0.55      | 0.55   | 0.55     | 298     |
+| Sneaker      | 0.88      | 0.93   | 0.91     | 293     |
+| Bag          | 0.95      | 0.96   | 0.96     | 297     |
+| Ankle boot   | 0.94      | 0.96   | 0.95     | 285     |
+|              |           |        |          |         |
+| **Accuracy** |           |        | 0.81     | 3000    |
+| **Macro avg**| 0.82      | 0.82   | 0.82     | 3000    |
+| **Weighted avg**| 0.82   | 0.81   | 0.81     | 3000    |
 
- T-shirt/top       0.78      0.75      0.77       302
-     Trouser       0.94      0.98      0.96       308
-    Pullover       0.62      0.83      0.71       310
-       Dress       0.85      0.77      0.81       298
-        Coat       0.73      0.53      0.62       324
-      Sandal       0.97      0.91      0.93       285
-       Shirt       0.55      0.55      0.55       298
-     Sneaker       0.88      0.93      0.91       293
-         Bag       0.95      0.96      0.96       297
-  Ankle boot       0.94      0.96      0.95       285
-
-    accuracy                           0.81      3000
-   macro avg       0.82      0.82      0.82      3000
-weighted avg       0.82      0.81      0.81      3000
 
 
 ## Dataset
